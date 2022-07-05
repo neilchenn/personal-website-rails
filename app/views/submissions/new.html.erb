@@ -1,0 +1,8 @@
+<br>
+<%= simple_form_for @submission, :url => new_path, :method => :post do |f| %>
+  <%= f.input :name %>
+  <%= f.input :email %>
+  <%= f.input :phone %>
+  <%= f.input :message %>
+  <%= f.button :submit %>
+<% end %>

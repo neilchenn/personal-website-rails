@@ -1,0 +1,43 @@
+<br>
+<div class="navigation">
+  <%= link_to "HOME", root_path, class:"btn-nav" %>
+  <%= link_to "PROJECTS", projects_path, class:"btn-nav" %>
+  <%= link_to "RESUME", resume_path, class:"btn-nav" %>
+  <%#= link_to "contact", new_path, class:"btn-nav" %>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="container-projects" onMouseOver="document.location.href='https://www.totheloo.org/'">
+    <div class="card-product">
+      <%= image_tag "totheloo.png", class:"card-product-img" %>
+        <div class="card-product-infos">
+          <h2>TotheLoo - Find the closest toilet near you</h2>
+          <p>A simple application that allows users to find the closest toilet near them. The application uses the Mapbox API to find the closest toilet near the user's current location.</p>
+          <p>Skills utilised: HTML, CSS, Bootstrap, SQL, git, GitHub, Heroku, Geocoder, Mapbox, Ruby on Rails.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-projects" onMouseOver="document.location.href='https://neilchenn.github.io/Simple_weather_app/'">
+    <div class="card-product">
+      <%= image_tag "paw.jpg", class:"card-product-img" %>
+        <div class="card-product-infos">
+          <h2>TothePupp - Cuddle a puppy near you</h2>
+          <p>An Airbnb like mockup application that allows users list puppies for hire, find puppies to rent in their neighbourhood, and manage their reservations.</p>
+          <p>Skills utilised: HTML, CSS, Bootstrap, SQL, git, GitHub, Heroku, Geocoder, Ruby on Rails.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-projects" onMouseOver="document.location.href='https://www.totheloo.org/'">
+    <div class="card-product">
+      <%= image_tag "weather.png", class:"card-product-img" %>
+        <div class="card-product-infos">
+          <h2>Simple weather app</h2>
+          <p>A JavaScript application that uses the OpenWeather API, users can add new cities, and search from existing cities weather information.</p>
+          <p>Skills utilised: HTML, CSS, JavaScript, git, GitHub, API.</p>
+        </div>
+    </div>
+  </div>
+</div>

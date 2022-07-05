@@ -1,2 +1,43 @@
 // Import page-specific CSS files here.
 @import "home";
+@import "resume";
+@import "projects";
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.btn-nav {
+  color: white;
+  border: 1px solid orange;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: lighter;
+  opacity: 0.8;
+  background-color: orange;
+  text-decoration: none;
+  width: 136px;
+  margin-right: 10px;
+}
+
+.btn-nav:hover {
+  opacity: 1;
+  color: white;
+}
+
+a {
+  color: white;
+  size: 10px;
+}
+
+a:hover {
+  color: orange;
+}
+
+#header-a {
+  font-size: 26px;
+  text-decoration: underline;
+}

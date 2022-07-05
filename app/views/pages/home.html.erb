@@ -1,2 +1,45 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<br>
+<div class="navigation">
+  <%= link_to "HOME", root_path, class:"btn-nav" %>
+  <%= link_to "PROJECTS", projects_path, class:"btn-nav" %>
+  <%= link_to "RESUME", resume_path, class:"btn-nav" %>
+  <%#= link_to "contact", new_path, class:"btn-nav" %>
+</div>
+<br>
+<br>
+
+
+<div class="container">
+  <div class="card-black" id="introduction">
+    <h1>Hello, I'm Neil 😎</h1>
+    <br>
+    <%= image_tag "profile.jpg", class:"profile-pic" %>
+    <br>
+    <br>
+    <p>
+      I am a Chartered Accountant with a passion for technology.
+      I enjoy constantly learning new concepts and growing while solving problems in creative ways.
+      Recently completed Web Development bootcamp with Le Wagon Melbourne and look forward to taking this passion futher by continuing to learn and building applications.
+    </p>
+  </div>
+  <div class="card-black">
+    <h2><strong>Follow me</strong></h2>
+    <ul class="list-inline">
+      <li>
+        <a href="https://github.com/neilchenn" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/yixuanneilchen/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <%# <li>
+        <a href="https://medium.com/@zooming.in" target="_blank">
+          <i class="fab fa-medium"></i>
+        </a>
+      </li> %>
+    </ul>
+  </div>
+</div>
